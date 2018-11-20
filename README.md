@@ -2,6 +2,9 @@
 
 ![DoxTracker.jpg](https://github.com/KURO-CODE/DoxTracker/blob/master/DoxTracker.jpg)
 
+
+# DISCLAMER: Program for educational purposes!!!
+
 # Usage
 * git clone https://github.com/KURO-CODE/DoxTracker.git
 * cd DoxTracker

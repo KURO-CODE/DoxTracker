@@ -73,7 +73,7 @@ def menu():
 	else:
 		KURO()
 		LOGO()
-		print "\033[1;31m[ERROR]\033[1;m selection invalid!"
+		print ("\033[1;31m[ERROR]\033[1;m selection invalid!")
 		time.sleep(3)
 		menu()
 
@@ -225,7 +225,7 @@ def ID():
 	else:
 		KURO()
 		LOGO()
-		print "\033[1;31m[ERROR]\033[1;m selection invalid!"
+		print ("\033[1;31m[ERROR]\033[1;m selection invalid!")
 		time.sleep(3)
 		menu()
 
@@ -320,7 +320,7 @@ def DEAD():
 	Name = raw_input(" Name:\033[1;m ")
 	F_name = raw_input("\033[1;35m First name:\033[1;m ")
 
-	print """\033[1;34m
+	print ("""\033[1;34m
  
   1. Libramemoria  
   2. Avis-de-deces 
@@ -373,7 +373,7 @@ def IP():
 	LOGO()
 	ip = raw_input(" Ip:\033[1;m ")
 
-	print """\033[1;34m
+	print ("""\033[1;34m
  
   1. G-force 
   2. whatismyipaddress
@@ -414,7 +414,7 @@ def IP():
 	else:
 		KURO()
 		LOGO()
-		print "\033[1;31m[ERROR]\033[1;m selection invalid!"
+		print ("\033[1;31m[ERROR]\033[1;m selection invalid!")
 		time.sleep(3)
 		menu()
 
@@ -425,7 +425,6 @@ def EXITMENU():
 	time.sleep(1)
 	print "\033[1;m Thanks for using DoxTracker\033[1;m"
 	time.sleep(2)
-	print
 	print "\033[1;m[\033[1;31mX\033[1;m]...\033[1;32mClosing"
 	time.sleep(1)
 	KURO()

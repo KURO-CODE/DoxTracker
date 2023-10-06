@@ -35,8 +35,7 @@ def KURO():
 #~~~~ M E N U ~~~~
 def LOGO():
 	KURO()
-
-	print ("""
+	print("""
 \033[1;31m  888b.             \033[1;32m88888           \033[1;36m     8
 \033[1;31m  8 \033[1;33m  8 .d8b. Yb\033[1;32m dP   8   8d\033[1;36m8b .d88 .d8b 8\033[1;34m.dP .d88b 8d8b
 \033[1;31m  8 \033[1;33m  8 8' .8 \033[1;32m `8.    8   8\033[1;36mP   8  8 8  \033[1;34m  88b  8.dP' 8P
@@ -46,10 +45,9 @@ def LOGO():
      """)
 
 def menu():
-
 	LOGO()
 	time.sleep(1) 
-	print ("""
+	print("""
 \033[1;33m    	1.\033[1;m Name
 \033[1;33m     	2.\033[1;m Phone number
 \033[1;33m     	3.\033[1;m Dead
@@ -73,7 +71,7 @@ def menu():
 	else:
 		KURO()
 		LOGO()
-		print ("\033[1;31m[ERROR]\033[1;m selection invalid!")
+		print("\033[1;31m[ERROR]\033[1;m selection invalid!")
 		time.sleep(3)
 		menu()
 
@@ -84,7 +82,7 @@ def ID():
 	Name = raw_input(" Name:\033[1;m ")
 	F_name = raw_input("\033[1;35m First name:\033[1;m ")
 
-	print ("""\033[1;34m
+	print("""\033[1;34m
  1. Pipl 	  10. Twitter
  2. Facebook      11. Beenverified
  3. Spokeo    	  12. Peoplelooker     
@@ -235,7 +233,7 @@ def PHONE():
 	time.sleep(1)
 	Num = raw_input(" Number:\033[1;m ")
 
-	print ("""\033[1;34m
+	print("""\033[1;34m
   1. Okcaller        
   2. Facebook     
   3. France-inverse   
@@ -310,7 +308,7 @@ def PHONE():
 	else:
 		KURO()
 		LOGO() 
-		print ("\033[1;31m[ERROR]\033[1;m selection invalid!")
+		print("\033[1;31m[ERROR]\033[1;m selection invalid!")
 		time.sleep(3)
 		menu()
 
@@ -320,7 +318,7 @@ def DEAD():
 	Name = raw_input(" Name:\033[1;m ")
 	F_name = raw_input("\033[1;35m First name:\033[1;m ")
 
-	print ("""\033[1;34m
+	print("""\033[1;34m
  
   1. Libramemoria  
   2. Avis-de-deces 
@@ -364,7 +362,7 @@ def DEAD():
 	else:
 		KURO()
 		LOGO()
-		print ("\033[1;31m[ERROR]\033[1;m selection invalid!")
+		print("\033[1;31m[ERROR]\033[1;m selection invalid!")
 		time.sleep(3)
 		menu()
 
@@ -373,7 +371,7 @@ def IP():
 	LOGO()
 	ip = raw_input(" Ip:\033[1;m ")
 
-	print ("""\033[1;34m
+	print("""\033[1;34m
  
   1. G-force 
   2. whatismyipaddress
@@ -414,7 +412,7 @@ def IP():
 	else:
 		KURO()
 		LOGO()
-		print ("\033[1;31m[ERROR]\033[1;m selection invalid!")
+		print("\033[1;31m[ERROR]\033[1;m selection invalid!")
 		time.sleep(3)
 		menu()
 
@@ -423,9 +421,9 @@ def EXITMENU():
 	KURO()
 	LOGO()
 	time.sleep(1)
-	print ("\033[1;m Thanks for using DoxTracker\033[1;m")
+	print("\033[1;m Thanks for using DoxTracker\033[1;m")
 	time.sleep(2)
-	print ("\033[1;m[\033[1;31mX\033[1;m]...\033[1;32mClosing")
+	print("\033[1;m[\033[1;31mX\033[1;m]...\033[1;32mClosing")
 	time.sleep(1)
 	KURO()
 	sys.exit()

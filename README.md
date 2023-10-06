@@ -11,7 +11,7 @@ Simple doxing tool
 
 * Name: DoxTraker
 * Version: 1.0 Beta
-* Dev: Python
+* Dev: Python2.7
 * Date: 03/12/2017
 * By: KURO-CODE
 
@@ -21,6 +21,7 @@ git clone https://github.com/KURO-CODE/DoxTracker.git
 ```
 
 # Usage
+use Python 2.x
 ```bash
 cd DoxTracker
 python DoxTracker.py

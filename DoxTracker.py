@@ -55,7 +55,7 @@ def menu():
 \033[1;36m       99. About
 	""")
 
-	OPT = raw_input("\033[1;35m  Select:\033[1;m ")
+	OPT = input("\033[1;35m  Select:\033[1;m ")
 	if OPT == "1":
          ID()
 	elif OPT == "2":
@@ -79,8 +79,8 @@ def ID():
 	KURO()
 	LOGO()  
 	time.sleep(1)
-	Name = raw_input(" Name:\033[1;m ")
-	F_name = raw_input("\033[1;35m First name:\033[1;m ")
+	Name = input(" Name:\033[1;m ")
+	F_name = input("\033[1;35m First name:\033[1;m ")
 
 	print("""\033[1;34m
  1. Pipl 	  10. Twitter
@@ -95,7 +95,7 @@ def ID():
 ==============================
 \033[1;36m    99. About\033[1;31m    0. Exit
 		""")
-	Tracker = raw_input("\033[1;35m D0xTr\033[0;31m@\033[1;35mck3r\033[1;m:~\033[1;34m/\033[1;m$\033[1;35m ")
+	Tracker = input("\033[1;35m D0xTr\033[0;31m@\033[1;35mck3r\033[1;m:~\033[1;34m/\033[1;m$\033[1;35m ")
 
 	if Tracker == "1":
 		KURO()
@@ -231,7 +231,7 @@ def PHONE():
 	KURO()
 	LOGO()  
 	time.sleep(1)
-	Num = raw_input(" Number:\033[1;m ")
+	Num = input(" Number:\033[1;m ")
 
 	print("""\033[1;34m
   1. Okcaller        
@@ -245,7 +245,7 @@ def PHONE():
 \033[1;m=========================
 \033[1;36m   99. Back\033[1;31m  0. Exit
 		""")
-	Tracker = raw_input("\033[1;35m D0xTr\033[0;31m@\033[1;35mck3r\033[1;m:~\033[1;34m/\033[1;m$\033[1;m ")
+	Tracker = input("\033[1;35m D0xTr\033[0;31m@\033[1;35mck3r\033[1;m:~\033[1;34m/\033[1;m$\033[1;m ")
 
 	if Tracker == "1":
 		KURO()
@@ -315,8 +315,8 @@ def PHONE():
 def DEAD():
 	KURO()
 	LOGO()
-	Name = raw_input(" Name:\033[1;m ")
-	F_name = raw_input("\033[1;35m First name:\033[1;m ")
+	Name = input(" Name:\033[1;m ")
+	F_name = input("\033[1;35m First name:\033[1;m ")
 
 	print("""\033[1;34m
  
@@ -327,7 +327,7 @@ def DEAD():
 =============================
 \033[1;36m    99. Back\033[1;31m    0. Exit
 		""")
-	Tracker = raw_input("\033[1;35m D0xTr\033[0;31m@\033[1;35mck3r\033[1;m:~\033[1;34m/\033[1;m$\033[1;35m ")
+	Tracker = input("\033[1;35m D0xTr\033[0;31m@\033[1;35mck3r\033[1;m:~\033[1;34m/\033[1;m$\033[1;35m ")
 	if Tracker == "1":
 		KURO()
 		webbrowser.open('http://www.libramemoria.com/avis/?Nom='+Name+'&Prenom='+F_name)
@@ -369,7 +369,7 @@ def DEAD():
 def IP():
 	KURO()
 	LOGO()
-	ip = raw_input(" Ip:\033[1;m ")
+	ip = input(" Ip:\033[1;m ")
 
 	print("""\033[1;34m
  
@@ -380,7 +380,7 @@ def IP():
 ==============================
 \033[1;36m    99. Back\033[1;31m    0. Exit
 		""")	
-	Tracker = raw_input("\033[1;35m D0xTr\033[0;31m@\033[1;35mck3r\033[1;m:~\033[1;34m/\033[1;m$\033[1;35m ")
+	Tracker = input("\033[1;35m D0xTr\033[0;31m@\033[1;35mck3r\033[1;m:~\033[1;34m/\033[1;m$\033[1;35m ")
 	if Tracker == "1":
 		KURO()
 		webbrowser.open('https://www.g-force.ca/en/hosting/ip-whois?ip='+ip)

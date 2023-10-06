@@ -423,9 +423,9 @@ def EXITMENU():
 	KURO()
 	LOGO()
 	time.sleep(1)
-	print "\033[1;m Thanks for using DoxTracker\033[1;m"
+	print ("\033[1;m Thanks for using DoxTracker\033[1;m")
 	time.sleep(2)
-	print "\033[1;m[\033[1;31mX\033[1;m]...\033[1;32mClosing"
+	print ("\033[1;m[\033[1;31mX\033[1;m]...\033[1;32mClosing")
 	time.sleep(1)
 	KURO()
 	sys.exit()

@@ -15,6 +15,7 @@ Simple doxing tool
 * Date: 03/12/2017
 * By: KURO-CODE
 
+
 * Version: 1.1
 * Dev: Python 3
 * Date: 06/10/2023

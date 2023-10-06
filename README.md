@@ -4,15 +4,20 @@
 ![DoxTracker.jpg](https://github.com/KURO-CODE/DoxTracker/blob/master/DoxTracker.jpg)
 
 
-# DISCLAMER: Program for educational purposes!!!
+# ⚠️ DISCLAMER: Program for educational purposes!!! ⚠️
 
 # INFO
 Simple doxing tool
 
 * Name: DoxTraker
 * Version: 1.0 Beta
-* Dev: Python2.7
+* Dev: Python 2.x
 * Date: 03/12/2017
+* By: KURO-CODE
+
+* Version: 1.1
+* Dev: Python 3
+* Date: 06/10/2023
 * By: KURO-CODE
 
 # Download
@@ -24,5 +29,5 @@ git clone https://github.com/KURO-CODE/DoxTracker.git
 use Python 2.x
 ```bash
 cd DoxTracker
-python DoxTracker.py
+python3 DoxTracker.py
 ```

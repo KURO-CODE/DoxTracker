@@ -36,26 +36,26 @@ def KURO():
 def LOGO():
 	KURO()
 
-	print """
+	print ("""
 \033[1;31m  888b.             \033[1;32m88888           \033[1;36m     8
 \033[1;31m  8 \033[1;33m  8 .d8b. Yb\033[1;32m dP   8   8d\033[1;36m8b .d88 .d8b 8\033[1;34m.dP .d88b 8d8b
 \033[1;31m  8 \033[1;33m  8 8' .8 \033[1;32m `8.    8   8\033[1;36mP   8  8 8  \033[1;34m  88b  8.dP' 8P
 \033[1;31m  88\033[1;33m8P' `Y8P'\033[1;32m dP Yb   8\033[1;36m   8    `Y88 `Y8\033[1;34mP 8 Yb `Y88P 8
 
      \033[1;31mPeOpLe TrAcKeR\033[1;m \033[1;34mBY\033[1;m KURO-CODE \033[1;33mVersion:\033[1;32m Beta 1.0\033[1;35m
-     """
+     """)
 
 def menu():
 
 	LOGO()
 	time.sleep(1) 
-	print """
+	print ("""
 \033[1;33m    	1.\033[1;m Name
 \033[1;33m     	2.\033[1;m Phone number
 \033[1;33m     	3.\033[1;m Dead
 \033[1;33m     	4.\033[1;m IP
 \033[1;36m       99. About
-	"""
+	""")
 
 	OPT = raw_input("\033[1;35m  Select:\033[1;m ")
 	if OPT == "1":
@@ -84,7 +84,7 @@ def ID():
 	Name = raw_input(" Name:\033[1;m ")
 	F_name = raw_input("\033[1;35m First name:\033[1;m ")
 
-	print """\033[1;34m
+	print ("""\033[1;34m
  1. Pipl 	  10. Twitter
  2. Facebook      11. Beenverified
  3. Spokeo    	  12. Peoplelooker     
@@ -96,7 +96,7 @@ def ID():
  9. Peekyou \033[1;m      
 ==============================
 \033[1;36m    99. About\033[1;31m    0. Exit
-		"""
+		""")
 	Tracker = raw_input("\033[1;35m D0xTr\033[0;31m@\033[1;35mck3r\033[1;m:~\033[1;34m/\033[1;m$\033[1;35m ")
 
 	if Tracker == "1":
@@ -235,7 +235,7 @@ def PHONE():
 	time.sleep(1)
 	Num = raw_input(" Number:\033[1;m ")
 
-	print """\033[1;34m
+	print ("""\033[1;34m
   1. Okcaller        
   2. Facebook     
   3. France-inverse   
@@ -246,7 +246,7 @@ def PHONE():
  00. All
 \033[1;m=========================
 \033[1;36m   99. Back\033[1;31m  0. Exit
-		"""
+		""")
 	Tracker = raw_input("\033[1;35m D0xTr\033[0;31m@\033[1;35mck3r\033[1;m:~\033[1;34m/\033[1;m$\033[1;m ")
 
 	if Tracker == "1":
@@ -310,7 +310,7 @@ def PHONE():
 	else:
 		KURO()
 		LOGO() 
-		print "\033[1;31m[ERROR]\033[1;m selection invalid!"
+		print ("\033[1;31m[ERROR]\033[1;m selection invalid!")
 		time.sleep(3)
 		menu()
 
@@ -328,7 +328,7 @@ def DEAD():
  00. All\033[1;m
 =============================
 \033[1;36m    99. Back\033[1;31m    0. Exit
-		"""
+		""")
 	Tracker = raw_input("\033[1;35m D0xTr\033[0;31m@\033[1;35mck3r\033[1;m:~\033[1;34m/\033[1;m$\033[1;35m ")
 	if Tracker == "1":
 		KURO()
@@ -364,7 +364,7 @@ def DEAD():
 	else:
 		KURO()
 		LOGO()
-		print "\033[1;31m[ERROR]\033[1;m selection invalid!"
+		print ("\033[1;31m[ERROR]\033[1;m selection invalid!")
 		time.sleep(3)
 		menu()
 
@@ -381,7 +381,7 @@ def IP():
  00. All\033[1;m
 ==============================
 \033[1;36m    99. Back\033[1;31m    0. Exit
-		"""	
+		""")	
 	Tracker = raw_input("\033[1;35m D0xTr\033[0;31m@\033[1;35mck3r\033[1;m:~\033[1;34m/\033[1;m$\033[1;35m ")
 	if Tracker == "1":
 		KURO()
